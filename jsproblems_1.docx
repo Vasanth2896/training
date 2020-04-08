@@ -1,0 +1,93 @@
+﻿data=[
+    {
+        id:1,
+        name:'name',
+        data:[
+            {
+                subID:1,
+                name:subname
+            },
+            {
+                subID:2,
+                name:subname
+            },
+            {
+                subID:3,
+                name:subname
+            }
+        ]
+    },
+    {
+        id:1,
+        name:'name',
+        data:[
+            {
+                subID:1,
+                name:subname
+            }
+        ]
+    },
+    {
+        id:1,
+        name:'name',
+    },
+    {
+        id:1,
+        name:'name',
+        data:[
+            {
+                subID:1,
+                name:'subname'
+                data:[
+                    {
+                        id:1,
+                        name:'innerSub'
+                    }
+                ]
+            },
+            {
+                subID:2,
+                name:subname
+            },
+            {
+                subID:1,
+                name:subname
+            }
+        ]
+    },
+    {
+        id:1,
+        name:'name',
+    }
+]
+
+
+1. create drop down based on the above data.
+2. change all subID key to subkey,id to key.
+3. Write a funtion to retun Array Chunking.
+Example:
+	chunking([1,2,3,4,5,],2);
+	returns [[1,2],[3,4],[5]];
+4. create a chunking with sum value from the user.
+Example:
+	chunkingSum([1,1,2,3,4,5,2],2,3);
+	return [[1,2],[1,2]];
+5. create a function that getting sentance from user and split number and split the spentance and push it into an arry with that split number,only full word needs to be split from that sentance.
+Example:
+	slipWord(“hi hello how r u”,5)
+	return [“hi”,”hello”,”how r”,”u”]
+6. create a funtion that returns one word by joining an array and remove the duplicate characters in the overlap and minimun number of character got overlap.
+Example:
+	join([“hiiiii”,”iimmmmm”,”mmmmmmeee”])
+	return [“hiiiiimmmmmmeee”,2]
+7. finding words in an 8x8 grid. Given a string of 64 letters and a string of words to find, convert the string to an 8x8 array, and return true if all words in the string can be found in the array. Return false otherwise. Words can be read in any direction (horizontally, vertically or diagonally).
+
+8. track robot roams around a 2D grid. It starts at (0,0) facing North. After each time it moves, the robot rotates 90 degrees clockwise. Given the amount the robot has moved each time, you have to calculate the robot's final position.
+Example:
+	findPosition([0,20,-20,-10])
+	return [0,30]	
+
+9. create maze can be represented by a 2D matrix, where 0s represent walkeable areas, and 1s represent walls. You start on the upper left corner and the exit is on the most lower right cell. If Exit exists return true else false.
+
+10. consider a 2d matrix in that rat is at position (0,0) and cheese is at (m-1,n-1) print the number of possible ways to reach the cheese.
+
