@@ -51,7 +51,6 @@ function chunkingSum(mainArray, chunkSize, chunkSum) {
                 if (firstElement + duplicateDummy[j] === chunkSum) {
                     baseArray.push([firstElement, duplicateDummy[j]]);
                     duplicateDummy.splice(j, 1);
-                    console.log(duplicateDummy);
                     chunkingSum(duplicateDummy, chunkSize, chunkSum);
                     return;
                 }
