@@ -85,7 +85,7 @@ Example:
 8. track robot roams around a 2D grid. It starts at (0,0) facing North. After each time it moves, the robot rotates 90 degrees clockwise. Given the amount the robot has moved each time, you have to calculate the robot's final position.
 Example:
 	findPosition([0,20,-20,-10])
-	return [0,30]	
+	return [30,20]	
 
 9. create maze can be represented by a 2D matrix, where 0s represent walkeable areas, and 1s represent walls. You start on the upper left corner and the exit is on the most lower right cell. If Exit exists return true else false.
 
