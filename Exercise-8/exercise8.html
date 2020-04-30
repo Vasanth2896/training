@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        padding: unset;
+        margin: unset;
+        box-sizing: border-box;
+    }
+</style>
+
+<body>
+    <div id="displayContainer">
+        <h2>Exercise 8</h2>
+        <h2>check whether the string is present in a given character grid or not</h2>
+        <h3>track robot roams around a 2D grid. It starts at (0,0) facing North. After each time it moves, the robot
+            rotates 90 degrees clockwise. Given the amount the robot has moved each time, you have to calculate the
+            robot's final position.
+            Example:
+            findPosition([0,20,-20,-10])
+            return [30,20] </h3>
+        <div id="showBoard"></div>
+        <fieldset>
+            <legend>Final position of the robot</legend>
+            <div style="margin: 10px;">
+                <label for="">Input values:</label>
+                <input type="text" id="userInput">
+                <button id="getUserInput">Get co-ordinates</button>
+                <button id="userOutput">final position</button>
+                <span id=displayInputValues></span>
+            </div>
+        </fieldset>
+
+    </div>
+</body>
+<script src="exercise8.js"></script>
+
+</html>
